@@ -396,7 +396,7 @@ class _ManaCalc extends State<ManaCalc> {
                             child: Text(
                           '$lw',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold,
                           ),
                         ))),
@@ -417,7 +417,7 @@ class _ManaCalc extends State<ManaCalc> {
                             child: Text(
                           '$lu',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold,
                           ),
                         ))),
@@ -438,7 +438,7 @@ class _ManaCalc extends State<ManaCalc> {
                             child: Text(
                           '$lb',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold,
                           ),
                         ))),
@@ -459,7 +459,7 @@ class _ManaCalc extends State<ManaCalc> {
                             child: Text(
                           '$lr',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold,
                           ),
                         ))),
@@ -480,7 +480,7 @@ class _ManaCalc extends State<ManaCalc> {
                             child: Text(
                           '$lg',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold,
                           ),
                         ))),
@@ -501,7 +501,7 @@ class _ManaCalc extends State<ManaCalc> {
                             child: Text(
                           '$lc',
                           style: TextStyle(
-                            fontSize: 30,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold,
                           ),
                         ))),

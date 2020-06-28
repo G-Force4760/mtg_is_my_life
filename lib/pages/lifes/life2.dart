@@ -221,17 +221,28 @@ class _Life2 extends State<Life2> {
                             ),
                           ),
                         ),
-                        RotatedBox(
-                          quarterTurns: 2,
-                          child: Container(
-                            height: MediaQuery.of(context).size.height / 2.05,
-                            width: MediaQuery.of(context).size.width,
-                            child: Center(
-                              child: Text(
-                                '$l1',
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 150),
-                              ),
+                        Container(
+                          height: MediaQuery.of(context).size.height / 2.3,
+                          width: MediaQuery.of(context).size.width,
+                          child: Center(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                SizedBox(
+                                  height:
+                                      MediaQuery.of(context).size.height / 9,
+                                ),
+                                Center(
+                                  child: RotatedBox(
+                                    quarterTurns: 2,
+                                    child: Text(
+                                      '$l1',
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 120),
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -268,49 +279,47 @@ class _Life2 extends State<Life2> {
                                     ),
                                   ),
                                 ),
-                                Expanded(
-                                  child: Container(
-                                    height: MediaQuery.of(context).size.height /
-                                        2.3,
-                                    width:
-                                        (MediaQuery.of(context).size.width) / 2,
-                                    child: FlatButton(
-                                      onPressed: () {
-                                        setState(
-                                          () {
-                                            l2 = l2 + 1;
-                                          },
-                                        );
-                                      },
-                                      child: Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: <Widget>[
-                                          Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.end,
-                                            children: <Widget>[
-                                              Center(
-                                                child: Container(
-                                                  height: 70,
-                                                  width: 70,
-                                                  child: Text(
-                                                    '$poison2',
-                                                    style: TextStyle(
-                                                        color: Colors
-                                                            .green.shade800,
-                                                        fontSize: 40,
-                                                        fontWeight:
-                                                            FontWeight.bold),
-                                                  ),
+                                Container(
+                                  height:
+                                      MediaQuery.of(context).size.height / 2.3,
+                                  width:
+                                      (MediaQuery.of(context).size.width) / 2,
+                                  child: FlatButton(
+                                    onPressed: () {
+                                      setState(
+                                        () {
+                                          l2 = l2 + 1;
+                                        },
+                                      );
+                                    },
+                                    child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: <Widget>[
+                                        Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.end,
+                                          children: <Widget>[
+                                            Center(
+                                              child: Container(
+                                                height: 70,
+                                                width: 70,
+                                                child: Text(
+                                                  '$poison2',
+                                                  style: TextStyle(
+                                                      color:
+                                                          Colors.green.shade800,
+                                                      fontSize: 40,
+                                                      fontWeight:
+                                                          FontWeight.bold),
                                                 ),
                                               ),
-                                            ],
-                                          ),
-                                        ],
-                                      ),
+                                            ),
+                                          ],
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ),
@@ -325,7 +334,7 @@ class _Life2 extends State<Life2> {
                             child: Text(
                               '$l2',
                               style:
-                                  TextStyle(color: Colors.white, fontSize: 150),
+                                  TextStyle(color: Colors.white, fontSize: 120),
                             ),
                           ),
                         ),

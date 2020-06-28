@@ -223,19 +223,9 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.red,
                     child: FlatButton(
                         child: Center(
-                          child: Column(
-                            children: <Widget>[
-                              Text(
-                                'Mana',
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 30),
-                              ),
-                              Text(
-                                'Calculator',
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 30),
-                              ),
-                            ],
+                          child: Text(
+                            'Mana',
+                            style: TextStyle(color: Colors.white, fontSize: 40),
                           ),
                         ),
                         onPressed: () {

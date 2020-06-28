@@ -188,7 +188,7 @@ class _Life1 extends State<Life1> {
                 Center(
                   child: Text(
                     '$l1',
-                    style: TextStyle(color: Colors.white, fontSize: 150),
+                    style: TextStyle(color: Colors.white, fontSize: 140),
                   ),
                 ),
                 Center(
@@ -441,6 +441,8 @@ class _Life1 extends State<Life1> {
                           city2 = 1;
                           crown1 = 1;
                           crown2 = 1;
+                          poison = 0;
+                          poison2 = 0;
                           Navigator.push(
                             context,
                             MaterialPageRoute(
